@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./topbar.css";
 import faq from "../../assets/Vectorfaq.svg";
 import speaker from "../../assets/speaker.svg";

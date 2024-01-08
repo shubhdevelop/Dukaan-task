@@ -1,4 +1,3 @@
-import React from "react";
 import "./sidebar.css";
 import { Link, NavLink } from "react-router-dom";
 import ProfilePicture from "../../assets/Image.png";
