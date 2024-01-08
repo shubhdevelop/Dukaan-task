@@ -1,0 +1,121 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    align-items: center;
+    color:white;
+    width: 224px;
+    height: 100%;
+    background-color: #1e2640;
+}
+
+.nav-container {
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+.Profile {
+    align-self: center;
+    margin-block: 24px;
+    width: 192px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.Profile div{
+    width: 108px;
+    height: 100%;
+    flex-direction: row;
+    text-align: left;
+    flex-direction: column;
+}
+
+.Profile p{
+    font-weight: bold;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+}
+
+
+
+.navlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 12px;
+    display: "flex";
+    font-size: 14px;
+    color: white;
+    width: 208px;
+    height: 36px;
+    text-decoration: none;
+    flex-direction: "row";
+    border-radius: 4px;
+}
+
+.navlink:hover{
+    background-color:rgba(255, 255, 255, .1)
+}
+
+
+.onActiveNavlink{
+    background-color:rgba(255, 255, 255, .1)
+}
+
+
+
+.navlink img{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.balance {
+    width: 192px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color:rgba(255, 255, 255, .1);
+    align-self :center;
+    padding: 6px 12px;
+    gap: 10px;
+    border-radius: 4px;
+
+} 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon{
+    background-color:rgba(255, 255, 255, .1);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+
+.amount{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
