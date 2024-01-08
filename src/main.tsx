@@ -13,7 +13,7 @@ import Dashboard from "./components/Dashboard/Dashboard.tsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/payments" element={<Dashboard />} />
     </Route>
   )
 );

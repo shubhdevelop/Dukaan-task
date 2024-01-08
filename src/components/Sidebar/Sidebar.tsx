@@ -44,12 +44,7 @@ const Sidebar = () => {
           <img src={arrow} width={"15px"} height={"8.68px"} />{" "}
         </div>
         <div className="nav">
-          <NavLink
-            className={({ isActive }) =>
-              `${isActive ? "onActiveNavlink" : ""} navlink`
-            }
-            to="/dashboard"
-          >
+          <NavLink className="navlink" to="/dashboard">
             <img src={Home} /> Home
           </NavLink>
           <NavLink className="navlink" to="/">
@@ -64,7 +59,12 @@ const Sidebar = () => {
           <NavLink className="navlink" to="/">
             <img src={Analytics} /> Analytics
           </NavLink>
-          <NavLink className="navlink" to="/">
+          <NavLink
+            className={({ isActive }) =>
+              `${isActive ? "onActiveNavlink" : ""} navlink`
+            }
+            to="/payments"
+          >
             <img src={Payments} /> Payments
           </NavLink>
           <NavLink className="navlink" to="/">

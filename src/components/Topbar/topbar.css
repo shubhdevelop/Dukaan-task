@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     height: 64px;
+    padding-inline:46px ;
     background-color: white;
     border-bottom: #d9d9d9 2px solid ;
 }
@@ -38,7 +39,7 @@ color: #4c4c4c;
 .searchbar{
     width: 400px;
     border-radius: 6px;
-    background-color:#F2F2F2;
+    background: rgba(242, 242, 242, 1);
     border: none;
    padding: 9px 16px;
     color: #4c4c4c;
@@ -46,7 +47,7 @@ color: #4c4c4c;
     background-image: url('../../assets/search.svg');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 9px 36px;
 }
 
 
@@ -64,7 +65,8 @@ color: #4c4c4c;
     flex-direction: row;
     width: 40px;
     justify-content: center;
-    background-color:#F2F2F2;;
+    background: rgba(230, 230, 230, 1);
     height: 40px;
     border-radius: 100%;   
 }
+
