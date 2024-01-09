@@ -1,4 +1,4 @@
-const AllCatchRoute = (props: Props) => {
+const AllCatchRoute = () => {
   return (
     <div
       style={{
