@@ -130,8 +130,7 @@
 
 
 .sorting  div{
-    cursor: pointer;
-
+  
  display: flex;
  flex-direction: row;
  gap: 8px;
@@ -140,7 +139,8 @@
 
 
 .sort{
-    
+    cursor: pointer;
+
     width: 79px;
     display: flex;
     align-items: center; 
@@ -154,7 +154,9 @@
     color: #4c4c4c;
 }
 
-.download{
+.download{  cursor: pointer;
+
+
     width: 36px;
     display: flex;
     align-items: center; 

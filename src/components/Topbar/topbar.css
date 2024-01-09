@@ -41,21 +41,26 @@ gap: 2px;
 color: #4c4c4c;
 }
 
-@media screen and (max-width: 800px) {
-    .payment-header p{
-        display: none;
-      }
-    
-  }
 
 
 @media screen and (max-width: 855px) {
     .topbar div:first-child span{
         display: none;
       }
+      .payment-header p{
+        display: none;
+      }
      .topbar{
         gap: 8px;
      } 
+
+     
+  }
+
+  @media screen and (min-width: 855px) {
+ .searchbar{
+    max-width: 400px ;
+ }
   }
 
 
@@ -94,4 +99,5 @@ color: #4c4c4c;
     height: 40px;
     border-radius: 100%;   
 }
+
 
