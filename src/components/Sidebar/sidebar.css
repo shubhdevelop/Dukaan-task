@@ -8,6 +8,7 @@
     min-width: fit-content;
     height: 100dvh;
     background-color: #1E2640;
+    position: sticky;
 }
 
 .nav-container {

@@ -26,6 +26,7 @@
 
 /* THIS MONTH */
 .heading div{
+    cursor: pointer;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -184,8 +185,11 @@
     border-radius: 4px;
 }
 
+.label div{
+    width: 100%;
+}
 
-.label .transactionfee {
+.label .transactionfee , .label .orderamount{
     display: flex;
     align-items: center;
     justify-content: end;
