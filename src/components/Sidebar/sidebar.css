@@ -4,8 +4,9 @@
     padding-bottom: 12px;
     align-items: center;
     color:white;
-    width: 224px;
-    height: 100%;
+    max-width: 150px;
+    min-width: fit-content;
+    height: 100dvh;
     background-color: #1E2640;
 }
 
@@ -13,7 +14,7 @@
     width: 208px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -125,3 +126,11 @@
     line-height: 22px;
 }
 
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 600px) { 
+       .sidebar {
+        width: 224px;
+    }
+  }

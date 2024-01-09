@@ -2,13 +2,12 @@ import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar/Sidebar";
 import "./layout.css";
 import Topbar from "../components/Topbar/Topbar";
+import { useState } from "react";
 
 const MainLayout = () => {
   return (
     <div className="container">
-      <div>
-        <Sidebar></Sidebar>
-      </div>
+      <Sidebar />
       <div className="main">
         <Topbar />
         <Outlet />

@@ -9,11 +9,13 @@ import {
 } from "react-router-dom";
 import MainLayout from "./layout/MainLayout.tsx";
 import Dashboard from "./components/Dashboard/Dashboard.tsx";
+import AllCatchRoute from "./components/AllCatchRoute.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route path="/payments" element={<Dashboard />} />
+      <Route path="*" element={<AllCatchRoute />} />
     </Route>
   )
 );

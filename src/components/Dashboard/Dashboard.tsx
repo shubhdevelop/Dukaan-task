@@ -10,7 +10,7 @@ export default function Dashboard() {
   const [searchbar, setSearchbar] = useState("");
 
   const items = [];
-  for (let i = 0; i < 19; i++) {
+  for (let i = 0; i < 13; i++) {
     items.push(
       <div className="item">
         <div className="orderid">#281209</div>
@@ -26,7 +26,7 @@ export default function Dashboard() {
   return (
     <div className="dashboard">
       <div className="heading">
-        <p>Overview</p>{" "}
+        <p>Overview</p>
         <div>
           Last Month <img src={downArrow} />
         </div>
@@ -72,9 +72,7 @@ export default function Dashboard() {
               <span> Transactional fees</span> <img src={info} />
             </div>
           </div>
-
           <div className="items-list">{items}</div>
-
           <div className="pagination">
             <div className="prev">
               <img src={downArrow} /> Previous
@@ -86,11 +84,6 @@ export default function Dashboard() {
               <div>11</div>
               <div>12</div>
               <div>13</div>
-              <div>14</div>
-              <div>15</div>
-              <div>16</div>
-              <div>17</div>
-              <div>18</div>
             </div>
             <div className="next">
               Next <img src={downArrow} />

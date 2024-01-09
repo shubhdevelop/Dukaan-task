@@ -45,19 +45,19 @@ const Sidebar = () => {
         </div>
         <div className="nav">
           <NavLink className="navlink" to="/dashboard">
-            <img src={Home} /> Home
+            <img src={Home} /> <p>Home</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Orders} /> Orders
+            <img src={Orders} /> <p>Orders</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Products} /> Products
+            <img src={Products} /> <p>Products</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Delivery} /> Delivery
+            <img src={Delivery} /> <p>Delivery</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Analytics} /> Analytics
+            <img src={Analytics} /> <p>Analytics</p>
           </NavLink>
           <NavLink
             className={({ isActive }) =>
@@ -65,22 +65,22 @@ const Sidebar = () => {
             }
             to="/payments"
           >
-            <img src={Payments} /> Payments
+            <img src={Payments} /> <p>Payments</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Tools} /> Tools
+            <img src={Tools} /> <p>Tools</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Discounts} /> Discounts
+            <img src={Discounts} /> <p>Discounts</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Audience} /> Audience
+            <img src={Audience} /> <p>Audience</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Appearance} /> Appearance
+            <img src={Appearance} /> <p>Appearance</p>
           </NavLink>
           <NavLink className="navlink" to="/">
-            <img src={Plugins} /> Plugins
+            <img src={Plugins} /> <p>Plugins</p>
           </NavLink>
         </div>
       </div>

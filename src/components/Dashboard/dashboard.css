@@ -1,14 +1,15 @@
 .dashboard{
     padding-left: 20px ;
-    padding-right: 44px;
-    padding-block: 32PX;
-
+    padding-right: 32px;
+    padding-block: 32px;
+    width: 100%;
+    flex-grow: 1;
     background-color: #fafafa;
     height: calc(100vh - 64px);
     display: flex;
     flex-direction: column;
     gap: 32px;
-    overflow-y: scroll;
+   overflow-y: scroll;
 }
 .heading{
     display: flex;
@@ -21,6 +22,8 @@
    color : rgba(26, 24, 30, 1)
 }
 
+
+/* THIS MONTH */
 .heading div{
     display: flex;
     align-items: center; 
@@ -40,6 +43,7 @@
 .overview{
     display: flex;
     flex-direction: row;
+    width: 100%;
     gap:20px;
 }
 
@@ -48,10 +52,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 16px;
-    width: 100%;
+
+    min-width: 49.3%;
     height: 118px;
     border-radius: 8px;
-    padding: 20px;
+    padding-left: 20px;
     background-color: white;
     box-shadow: 0 2px 6px 
     rgba(26, 24, 30, 0.04)
@@ -76,6 +81,7 @@
 .transactions {
     display: flex;
     flex-direction: column;
+    width: 100% ;
 }
 
 .transactions .heading{
@@ -89,7 +95,8 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 1096px;
+    width: 100%;
+    height:fit-content ;
     padding: 12px 12px 24px 12px;
    border-radius: 8px;
    box-shadow: 0 2px 6px 
@@ -114,7 +121,8 @@
 
 .sorting{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: start;
     justify-content: space-between;
 }
 

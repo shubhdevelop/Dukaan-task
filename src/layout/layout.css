@@ -1,8 +1,21 @@
 .container{
     height: 100vh;
+    max-width: 100vw;
+    padding: 0px;
+    margin: 0px;
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    overflow-y: hidden;
 }
 
 .main{
+
+    padding: 0px;
+    margin: 0px;
     width: 100%;
+    height: 100%;
+    overflow: none;
 }
+
