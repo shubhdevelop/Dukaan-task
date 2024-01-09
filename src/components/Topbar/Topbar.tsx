@@ -9,7 +9,7 @@ const Topbar = () => {
 
   return (
     <div className="topbar">
-      <div>
+      <div className="payment-header">
         <p style={{ fontSize: "15px", margin: "16px" }}> Payment </p>
         <span>
           <img src={faq} color="#4c4c4c" /> How it works

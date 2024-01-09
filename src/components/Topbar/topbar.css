@@ -8,6 +8,7 @@
     padding-inline:46px ;
     background-color: white;
     border-bottom: #d9d9d9 2px solid ;
+    
 }
 
 .topbar div {
@@ -38,11 +39,32 @@ gap: 2px;
 color: #4c4c4c;
 }
 
+@media screen and (max-width: 800px) {
+    .payment-header p{
+        display: none;
+      }
+    
+  }
+
+
 @media screen and (max-width: 855px) {
     .topbar div:first-child span{
-      display: none;
-    }
+        display: none;
+      }
+     .topbar{
+        gap: 8px;
+     } 
   }
+
+
+  @media screen and (max-width: 690px) {
+    .topbar div:first-child span{
+        display: none;
+      }
+     .topbar{
+        gap: 8px;
+     } 
+  }  
 .searchbar{
     max-width: 400px;
     border-radius: 6px;

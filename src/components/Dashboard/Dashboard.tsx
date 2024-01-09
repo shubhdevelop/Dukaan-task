@@ -15,8 +15,8 @@ export default function Dashboard() {
       <div className="item">
         <div className="orderid">#281209</div>
         <div className="orderdate">7 July, 2023</div>
-        <div className="orderamount">&#8377; 1,278.23</div>
-        <div className="transactionfee">&#8377; 22</div>
+        <div className="orderamount">&#8377;1,278.23</div>
+        <div className="transactionfee">&#8377;22</div>
       </div>
     );
   }
@@ -38,7 +38,7 @@ export default function Dashboard() {
         </div>
         <div className="amount-received">
           <p>Amount Received</p>
-          <p className="amount">&#8377; 23,92,312.19</p>
+          <p className="amount">&#8377;23,92,312.19</p>
         </div>
       </div>
       <div className="transactions">

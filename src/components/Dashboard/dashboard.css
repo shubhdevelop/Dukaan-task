@@ -1,8 +1,9 @@
 .dashboard{
     padding-left: 20px ;
     padding-right: 32px;
-    padding-block: 32px;
+    padding-top: 32px;
     width: 100%;
+    padding-bottom: 20px;
     flex-grow: 1;
     background-color: #fafafa;
     height: calc(100vh - 64px);
@@ -53,7 +54,7 @@
     justify-content: center;
     gap: 16px;
 
-    min-width: 49.3%;
+   width: 100%;
     height: 118px;
     border-radius: 8px;
     padding-left: 20px;
@@ -170,6 +171,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    overflow-x: none;
     gap: 40px;
     width: 100%;
     height: 40px;
@@ -316,3 +319,25 @@
     color: white;
     border-radius: 4px;
 }
+
+
+@media screen and (max-width: 860px) {
+    .label , .item {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .label div {
+        justify-content: center;
+        ;align-items: start;
+    }
+    .pagination{
+
+    }
+  }
+
+ @media screen and (max-width: 690px) {
+  
+    .overview  .amount{
+       font-size:  28px;
+    } 
+ }  
