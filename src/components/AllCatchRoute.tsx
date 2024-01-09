@@ -1,7 +1,3 @@
-import React from "react";
-
-type Props = {};
-
 const AllCatchRoute = (props: Props) => {
   return (
     <div
