@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    padding-bottom: 12px;
+    padding: 16px 10px;
     align-items: center;
     color:white;
     max-width: 150px;
@@ -20,8 +20,9 @@
 
 
 .Profile {
+    cursor: pointer;
     align-self: center;
-    margin-block: 24px;
+    margin-bottom: 24px;
     width: 192px;
     height: 42px;
     display: flex;
@@ -85,6 +86,8 @@
 }
 
 .balance {
+    cursor: pointer;
+
     width: 192px;
     display: flex;
     justify-content: start;

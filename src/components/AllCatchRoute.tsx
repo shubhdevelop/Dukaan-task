@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AllCatchRoute = () => {
   return (
     <div
@@ -9,6 +11,7 @@ const AllCatchRoute = () => {
       }}
     >
       Ops..... Page is under construction
+      <Link to="/payments"> Go to Payments Page</Link>
     </div>
   );
 };

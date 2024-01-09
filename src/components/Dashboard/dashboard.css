@@ -129,6 +129,8 @@
 
 
 .sorting  div{
+    cursor: pointer;
+
  display: flex;
  flex-direction: row;
  gap: 8px;
@@ -230,6 +232,7 @@
 }
 
 .orderid {
+    cursor: pointer;
     font-weight: 500;
     color: rgba(20, 110, 180, 1);
 
@@ -254,6 +257,7 @@
 }
 
 .prev{
+    cursor: pointer;
     width: 100px;
     display: flex;
     align-items: center; 
@@ -273,6 +277,7 @@
 }
 
 .next{
+    cursor: pointer;
     width: 74px;
     display: flex;
     align-items: center; 
@@ -295,12 +300,19 @@
 }
 
 .page-number{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
     font-size:14px;
     font-weight: 400px;
+}
+
+.page-number div:hover{
+    background-color:  #4c4c4c;
+    color: white;
+    border-radius: 4px;
 }
 
 .page-number div{
